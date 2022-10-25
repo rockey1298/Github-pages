@@ -15,7 +15,6 @@ padding isnt going to do anything for us, just for content inside boxes
 */
 div.col {
   background-color: white;
-  margin-bottom: 10px;
   display: inline-block;
   height: 220px;
   position: relative;
@@ -27,15 +26,13 @@ p.filler {
   background-color: gray;
   border: 1px solid black;
   height: 200px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   color: white;
   padding-top: 50px;
   padding-left: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
-  display: inline-block;
-  position: relative;
   color: black;
 }
 
@@ -50,7 +47,7 @@ p.label{
   float:right;
   font-size: 24px;
   position: absolute;
-  right: 15px;
+  right: 10px;
   top: 16px;
 
 }
